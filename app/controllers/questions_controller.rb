@@ -8,7 +8,7 @@ class QuestionsController < ApplicationController
     @client_answer = params[:question]
 
     @client_answer.empty? ? @client_answer = "ask something ?" : @client_answer
-
+    #take_screenshot
     if @client_answer == "I am going to work"
       @result = "Great!"
     elsif @client_answer.include? "?"
