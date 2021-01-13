@@ -1,0 +1,90 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$background-colour: white;
+$text-colour: tomato;
+$font-size: 18px;
+
+body {
+    background-color: $background-colour;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    width: 18em;
+    height: 2em;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    color: black;
+    background-color: lighblue;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: darkblue;
+    border-radius: 4px;
+}
+
+form,
+h1,
+p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.result {
+    display: flex;
+    border-left-width: 2px;
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 4px;
+}
+
+.client-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+    border-left: 5px groove black;
+    padding: 10px;
+    margin-bottom: 26px;
+}
+
+
+.answer-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffe1;
+    text-align: center;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+    border-left: 5px groove black;
+    padding: 10px;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    width: 800px;
+    align-items: left;
+    margin: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
